@@ -1,0 +1,140 @@
+/* General Styles */
+.data-editor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .editor-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .fetch-button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .fetch-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Posts List */
+  .posts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 10px;
+  }
+  
+  .post-checkbox {
+    margin-top: 10px; /* Align checkbox with the top of the content */
+  }
+  
+  .post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .post-title {
+    margin: 0;
+    color: #333;
+  }
+  
+  .post-body {
+    margin: 0;
+    color: #666;
+  }
+  
+  .edit-button,
+  .update-button {
+    align-self: flex-start;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover,
+  .update-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Edit Form */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increase spacing between fields */
+    width: 100%; /* Make the form take full width */
+  }
+  
+  .edit-input,
+  .edit-textarea {
+    width: 100%; /* Make inputs take full width */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px; /* Increase font size for better readability */
+  }
+  
+  .edit-input {
+    height: 40px; /* Set a fixed height for the title input */
+  }
+  
+  .edit-textarea {
+    resize: vertical;
+    min-height: 150px; /* Increase minimum height for the body textarea */
+  }
+  
+  /* Save Button */
+  .save-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* No Data Message */
+  .no-data {
+    text-align: center;
+    color: #666;
+  }
